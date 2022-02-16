@@ -1,0 +1,264 @@
+<!doctype html>
+<html>
+
+<!-- Head Section is all nonvisible elements-->
+<head>
+
+    <!-- All inpage style goes here-->
+    <style>
+        :root {
+            --mainbg: #d8d8d8;
+            --headercolor: #ffffff;
+            --navcolor:#001d3d;
+            --navtext: #ffffff;
+            --footercolor: #4a4b4a;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+       h1 {
+            background:grey;
+            padding: .250rem;
+            text-align: center;
+            border-radius:60px;
+            margin: auto;
+            width:80%;
+  
+        }
+        
+        
+        nav {
+            background: var(--navcolor);
+            color: var(--navtext);
+            padding: 1rem;
+            margin:1rem;
+            width:110%;
+        }
+        footer {
+            background:var(--navcolor);
+            color:white;
+            padding: 1rem;
+            min-height: 6vh;
+            width:110%;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            background:white;
+            min-height: 70vh;
+            padding: 1vh;
+        }
+        table {
+            width:110%;
+            margin: auto;
+            font-size: 1.5rem;
+            text-align: center;
+            border-collapse:collapse;
+            margin:1rem;
+          
+
+        }
+        td{
+             padding: 1.5vh;
+             
+        }
+     
+        table,tr,th,td {
+               border: 1px black solid;
+        }
+        p{
+            text-align:center;
+        }
+    tr:nth-child(odd){
+        background-color:#EFD1FC;
+    }
+    tr:nth-child(even){
+        background-color:green;
+        color:white;
+    }
+    tr:nth-child(1) {
+        background-color:blue;
+        color:white;
+    }
+    tr:nth-child(2) {
+        background-color:grey ;
+    }
+    tr:nth-child(2) td {
+        padding: .1rem;
+        font-size: .25rem;
+        
+    }
+
+
+
+    </style>
+    <title>Movie Table</title>
+</head>
+<body>
+
+    <header>
+     <h1>Movie Table</h1>
+     <p>
+         Mufidul Choudhury<br>
+         Web 2, 3rd Hour<br>
+         1/27/2022
+     </p>
+    </header>
+    <nav>
+        Placeholder
+    </nav>
+    <div class="container">
+
+        <!--Put assignment specifiec code here-->
+
+        <table>
+             <tr>
+                 <th>Number</th>
+                 <th>Movie Name</th>
+                 <th>Release Date</th>
+                 <th>Director</th>
+                 <th>Brief Summary</th>
+             </tr>
+             <tr>
+               <td colspan="5">&nbsp;</td>
+             </tr>
+             <tr>
+                 <td>1</td>
+                 <td>The Great Gatsby</td>
+                 <td>May 1, 2013 (New York City) <br>
+                  May 10, 2013 (United States) <br>
+                  May 30, 2013 (Australia)</td>
+                 <td>Baz Luhrmann</td>
+                 <td>The moral of The Great Gatsby is that the American Dream is ultimately unattainable. Jay Gatsby had attained great wealth and status as a socialite; however, Gatsby's dream was to have a future with his one true love, Daisy.</td>
+             </tr>
+             <tr>
+                  <td>2</td>
+                  <td>Home Alone</td>
+                  <td>
+              November 10, 1990 (Chicago)<br>
+              November 16, 1990 (United States</td>
+                  <td>Chris Columbus</td>
+                  <td>
+So the moral is that a healthy adulthood isn't just about being on your own — being Home Alone isn't that much fun if you're isolated from the people you care about. In 2018, Macaulay Culkin reprised his role as Kevin in an ad for Google Assistant.</td>
+             </tr>
+             <tr>
+                <td>3</td>
+                <td>FBI</td>
+                <td>September 25, 2018</td>
+                <td> Milena Govich</td>
+                <td>The series centers on inner workings of the New York office criminal division of the Federal Bureau of Investigation (FBI). This elite unit brings to bear all their talents, intellect, and technical expertise on major cases in order to keep New York and the country safe.
+</td>
+           </tr>
+           <tr>
+               <td>4</td>
+               <td>Luca</td>
+               <td>June 18, 2021</td>
+               <td>Enrico Casarosa</td>
+               <td>There are morals of challenging yourself to do hard things and learning to make friends in spite of your differences, but there is a good lesson in Disney's “Luca” you might have missed. The lesson of learning how to shut down negative self-talk.</td>
+           </tr>
+            <tr>
+                <td>5</td>
+               <td>The Boss Baby </td>
+               <td>March 31, 2017</td>
+               <td>Tom McGrath</td>
+               <td>BEING OPEN-MINDED. But perhaps the most important thing the Boss Baby teaches us is the value of an open mind. It's more than just hiring a diverse team of operatives to enact covert missions that make it clear there is a serious lack of supervision over most of these babies</td>
+            </tr>
+            <tr>
+                <td>6</td>
+               <td>Cold Case</td>
+               <td>June 30, 2021</td>
+               <td>Tanu Balak</td>
+               <td>Medha Padmaja, a journalist and single mother, moves into a new home with her little daughter, where she experiences paranormal activities.</td>
+            </tr>
+
+
+            <tr>
+                <td>7</td>
+               <td>Peter Rabbit</td>
+               <td>June 11, 2021</td>
+               <td>Will Gluck</td>
+               <td>The main theme in The Tale of Peter Rabbit is that you reap what you sow. Peter Rabbit was specifically told by his mother not to go into Mr. McGregor's garden. He deliberately disobeyed her and ultimately suffered the consequences.</td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+               <td>Back to the Outback</td>
+               <td>December 3, 2021</td>
+               <td>Harry Cripps, Clare Knight</td>
+               <td>
+The characters in Back to the Outback don't remember who their families are, but they have dreams of what it will be like to reunite with them. ... Most importantly, family is the people (or creatures) that'll be there with you through thick and thin, whether you're living in a zoo or in the Outback.</td>
+            </tr>
+
+            <tr>
+                <td>9</td>
+               <td>Extinct</td>
+               <td>October 3, 2021</td>
+               <td> Raymond S. Persi, David Silverman</td>
+               <td>Teaches the value of friendship, teamwork, courage, taking responsibility, and that there are repercussions to actions.</td>
+            </tr>
+
+            <tr>
+                <td>10</td>
+               <td>Peter Rabbit  2: The Runaway</td>
+               <td>June 11, 2021</td>
+               <td> Will Gluck</td>
+               <td>Bea, Thomas and the rabbits have created a makeshift family, but despite his best efforts, Peter can't seem to shake his mischievous reputation. Venturing out of the garden, Peter finds himself in a world where his mischief is appreciated. However, when his family risks everything to come looking for him, Peter must figure out what kind of bunny he wants to be.</td>
+            </tr>
+
+            <tr>
+                <td>11</td>
+               <td>Chicago Med</td>
+               <td>November 17, 2015</td>
+               <td>Carl Weathers</td>
+               <td>
+The city's most highly skilled medical team saves lives, while navigating their unique interpersonal relationships. An emotional thrill ride through the day-to-day chaos of the city's most explosive hospital and the courageous team of doctors who hold it together.</td>
+            </tr>
+            
+            <tr>
+                <td>12</td>
+               <td>NCIS</td>
+               <td>September 23, 2003</td>
+               <td>Omar R. Lopez</td>
+               <td>NCIS is an American police procedural drama television series, revolving around a fictional team of special agents from the Naval Criminal Investigative Service, which conducts criminal investigations involving the U.S. Navy and Marine Corps. ... NCIS is the first member of the NCIS franchise.</td>
+            </tr>
+            
+            <tr>
+                <td>13</td>
+               <td>The Boss Baby: Family Business</td>
+               <td>July 2, 2021</td>
+               <td>Tom McGrath</td>
+               <td>The plot follows the now-adult Templeton brothers who are brought back together after the new Boss Baby (Sedaris) requests their help to stop a professor from erasing childhoods worldwide. Plans for a Boss Baby sequel were announced in May 2017 with McGrath returning to direct.</td>
+               
+            </tr>
+            
+            <tr>
+                <td>14</td>
+               <td>Matilda</td>
+               <td> July 28, 1996 </td>
+               <td>Danny DeVito</td>
+               <td>Matilda is a bright little girl who is very eager to learn. Eventually, her insensitive parents send her to a school run by Miss (The) Trunchbull. She is a cruel authoritarian that loathes children. Matilda befriends her school teacher, Miss Honey</td>
+            </tr>
+            <tr>
+                <td>15</td>
+               <td>Coco</td>
+               <td>November 22, 2017</td>
+               <td>Adrian Molina, Lee Unkrich</td>
+               <td>The film's main theme, loving and supporting your family, and remembering those you've lost, comes through in every scene. While Miguel sometimes finds his family and their shoemaking business suffocating, he also knows that they love him.
+</td>
+            </tr>
+            
+            
+        </table>
+        
+    </div><!--End of the container-->
+    <footer>
+        Made in FHS Design
+    </footer>
+
+
+<!--Don't delet me please, but copy me-->
+</body>
+</html>
